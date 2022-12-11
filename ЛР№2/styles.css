@@ -1,0 +1,125 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0ebf8;
+  
+ 
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 7px;
+  width: 600px;
+  margin: auto;
+ 
+}
+
+.header {
+  background-color: #673ab7;
+  color: #dadce0;
+  text-align: center;
+  width: 600px;
+  height: 65px;
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  border-radius: 7px 7px 0 0;
+  vertical-align: middle;
+  line-height: 65px;
+}
+
+.form-controls{
+  padding: 14px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  font-weight: 15px;
+  
+}
+
+.text-label{
+  font-size: 15px;
+  font-weight: 800;
+  display: block;
+}
+
+.text {
+  width: 570px;
+  height: 25px;
+}
+
+textarea {
+  width: 570px;
+  height: 60px;
+}
+
+.number {
+  width: 570px;
+  height: 25px;
+}
+
+.email {
+  width: 570px;
+  height: 25px;
+}
+
+.dws-submit {
+  border: 1px solid white;
+  border-radius: 0;
+  background-color: #1a73e8;
+  color: white;
+  width: 140px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dws-submit:hover {
+  background-color: white;
+  color: #1a73e8;
+  border-width: 2px;
+  border-color: #1a73e8;
+  width: 140px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dws-submit:active {
+  background-color: white;
+  color: #673ab7;
+  border-width: 2px;
+  border-color: #673ab7;
+  width: 140px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.submit-text {
+  text-align: right;
+  
+}
+
+.number_label {
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: -15px;
+}
+
+.form_control1 {
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.course {
+  width: 570px;
+  height: 25px;
+}
+
+.direction {
+  width: 570px;
+  height: 25px;
+}
