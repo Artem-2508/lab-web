@@ -11,6 +11,7 @@ body {
   border-radius: 7px;
   width: 600px;
   margin: auto;
+  padding-bottom: 14px;
 }
 
 .header {
@@ -27,7 +28,7 @@ body {
 }
 
 .form-controls {
-  padding: 14px;
+  padding: 0 14px 0 14px;
 }
 
 .form-control {
@@ -117,4 +118,8 @@ textarea {
 .direction {
   width: 570px;
   height: 25px;
+}
+
+input [type="checkbox"], input [type="radio"] {
+  display: block;
 }

@@ -1,138 +1,112 @@
 <html>
-  <head>
-    <title>ПР№2 Зозулина Артема</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">Заявка на стажування</div>
-      
-      <div class="form-controls">
-        <div class="form-control">
-          <label class="text-label">Ім'я</label>
-          
-          <input class="text" placeholder="Введіть Ім'я" />
-        </div>
-        <div class="form-control">
-          <label class="text-label">Прізвище</label>
-          
-          <input class="text" placeholder="Введіть Прізвище" />
-        </div>
-        <div class="form-control">
-          <label class="text-label">Електронна пошта</label>
-          
-          <input class="email" placeholder="email" />
-        </div>
-        <div class="form-control">
-          <label class="text-label">Курс</label>
-          
-          <select class="course" name="course">
-            <option value=""></option>
-            <option value="Бакалавр1">Бакалавр(1курс)</option>
-            <option value="Бакалавр2">Бакалавр(2курс)</option>
-            <option value="Бакалавр3">Бакалавр(3курс)</option>
-            <option value="Бакалавр4">Бакалавр(4курс)</option>
-            <option value="Магістр1">Магістр(1курс)</option>
-            <option value="Магістр2">Магістр(2курс)</option>
-          </select>
-        </div>
-        <div class="form-control">
-          <label class="text-label">Середній бал</label>          
-          <input type="number" class="number" step="1" min="1" max="5"/>          
-         </div>
-         <div class="form-control">
-          <label class="text-label">Напрямок стажування</label>
-          
-          <select class="direction" name="direction">
-            <option value=""></option>
-            <option value="NET">NET</option>
-            <option value="JS">JS</option>
-            <option value="Java">Java</option>
-            <option value="Python">Python</option>
-            <option value="c/c++">C/C++</option>
-          </select>
-        </div>
-        <div class="form-control">
-          <label class="text-label"
-            >Скільки часу на тиждень готові приділяти стажуванню?</label>
-          
-        </div>
-        <div class="form-control">
-          <input type="radio" />
-          "2-4год"
-          <div class="form-control">
-            <input type="radio" />
-            "4-8год"
-            <div class="form-control">
-              <input type="radio" />
-              "8-12год"
-              <div class="form-control">
-                <input type="radio" />
-                "12-16год"
-                <div class="form-control">
-                  <input type="radio" />
-                  "Понад 20 год"
-                </div>
-                <div class="form-control">
-                  <label class="text-label">Маю досвід з</label>
-                  
-                </div>
-                <div class="form-control">
-                  <input type="checkbox" />
-                  " JS "
-                </div>
-                <div class="form-control">
-                  <input type="checkbox" />
-                  " HTML "
-                </div>
-                <div class="form-control">
-                  <input type="checkbox" />
-                  " CSS "
-                </div>
-                <div class="form-control">
-                  <input type="checkbox" />
-                  " C/C++ "
-                </div>
-                <div class="form-control">
-                  <input type="checkbox" />
-                  " C# "
-                </div>
-                <div class="form-control">
-                  <input type="checkbox" />
-                  "Java"
-                </div>
-                <div class="form-control">
-                  <input type="checkbox" />
-                  "SQL"
-                </div>
-                <div class="form-control">
-                  <label class="text-label">Рівень англійської</label>
-                  
-                  <select class="direction" name="direction">
-                    <option value=""></option>
-                    <option value="beg">Beginner</option>
-                    <option value="pre-inter">Pre-Intermediate</option>
-                    <option value="inter">Intermediate</option>
-                    <option value="up-inter">Upper-Intermediate</option>
-                    <option value="flu">Fluent</option>
-                  </select>
-                </div>
-                <div class="form-control">
-                  <label class="text-label">
-                      Перелічіть свої найважливіші досягнення або внески за останній рік
-                  </label>
-                  
-                  <textarea>
 
-                  </textarea>
-                  
-                  </div>
-                  <div class="submit-text">
-                      <input class="dws-submit" type="submit" name="submit" value="Надіслати">
-                  </div>      
-                  </div>
-            </div>
-          </div>
-        </div>                 
-        </body>
+<head>
+  <title>ПР№2 Зозулина Артема</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">Заявка на стажування</div>
+
+    <div class="form-controls">
+      <div class="form-control">
+        <label class="text-label">Ім'я</label>
+        <input class="text" placeholder="Введіть Ім'я" />
+      </div>
+      <div class="form-control">
+        <label class="text-label">Прізвище</label>
+        <input class="text" placeholder="Введіть Прізвище" />
+      </div>
+      <div class="form-control">
+        <label class="text-label">Електронна пошта</label>
+        <input class="email" placeholder="email" />
+      </div>
+      <div class="form-control">
+        <label class="text-label">Курс</label>
+        <select class="course" name="course">
+          <option value=""></option>
+          <option value="Бакалавр1">Бакалавр(1курс)</option>
+          <option value="Бакалавр2">Бакалавр(2курс)</option>
+          <option value="Бакалавр3">Бакалавр(3курс)</option>
+          <option value="Бакалавр4">Бакалавр(4курс)</option>
+          <option value="Магістр1">Магістр(1курс)</option>
+          <option value="Магістр2">Магістр(2курс)</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label class="text-label">Середній бал</label>
+        <input type="number" class="number" step="1" min="1" max="5" />
+      </div>
+      <div class="form-control">
+        <label class="text-label">Напрямок стажування</label>
+        <select class="direction" name="direction">
+          <option value=""></option>
+          <option value="NET">NET</option>
+          <option value="JS">JS</option>
+          <option value="Java">Java</option>
+          <option value="Python">Python</option>
+          <option value="c/c++">C/C++</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label class="text-label">Скільки часу на тиждень готові приділяти стажуванню?</label>
+        <div><input type="radio" />
+          "2-4год"</div>
+        <div><input type="radio" />
+          "4-8год"</div>
+        <div><input type="radio" />
+          "8-12год"</div>
+        <div><input type="radio" />
+          "12-16год"</div>
+        <div><input type="radio" />
+          "Понад 20 год"</div>
+      </div>
+      <div class="form-control">
+        <label class="text-label">Маю досвід з</label>
+        <div><input type="checkbox" />
+          " JS "</div>
+        <div><input type="checkbox" />
+          " HTML "</div>
+        <div> <input type="checkbox" />
+          " CSS "</div>
+        <div><input type="checkbox" />
+          " C/C++ "</div>
+        <div><input type="checkbox" />
+          " C# "</div>
+        <div><input type="checkbox" />
+          "Java"</div>
+        <div><input type="checkbox" />
+          "SQL"</div>
+      </div>
+      <div class="form-control">
+        <label class="text-label">Рівень англійської</label>
+
+        <select class="direction" name="direction">
+          <option value=""></option>
+          <option value="beg">Beginner</option>
+          <option value="pre-inter">Pre-Intermediate</option>
+          <option value="inter">Intermediate</option>
+          <option value="up-inter">Upper-Intermediate</option>
+          <option value="flu">Fluent</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label class="text-label">
+          Перелічіть свої найважливіші досягнення або внески за останній рік
+        </label>
+
+        <textarea>
+        </textarea>
+      </div>
+
+    </div>
+    <div class="submit-text">
+      <input class="dws-submit" type="submit" name="submit" value="Надіслати">
+    </div>
+  </div>
+
+
+</body>
+
 </html>
