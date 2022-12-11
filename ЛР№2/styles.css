@@ -4,8 +4,6 @@
 
 body {
   background-color: #f0ebf8;
-  
- 
 }
 
 .container {
@@ -13,7 +11,7 @@ body {
   border-radius: 7px;
   width: 600px;
   margin: auto;
- 
+  padding-bottom: 14px;
 }
 
 .header {
@@ -29,17 +27,16 @@ body {
   line-height: 65px;
 }
 
-.form-controls{
-  padding: 14px;
+.form-controls {
+  padding: 0 14px 0 14px;
 }
 
 .form-control {
   margin-bottom: 10px;
   font-weight: 15px;
-  
 }
 
-.text-label{
+.text-label {
   font-size: 15px;
   font-weight: 800;
   display: block;
@@ -100,7 +97,6 @@ textarea {
 
 .submit-text {
   text-align: right;
-  
 }
 
 .number_label {
@@ -122,4 +118,8 @@ textarea {
 .direction {
   width: 570px;
   height: 25px;
+}
+
+input [type="checkbox"], input [type="radio"] {
+  display: block;
 }
